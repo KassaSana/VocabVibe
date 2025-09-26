@@ -1,0 +1,28 @@
+{
+  "name": "vocalvibe",
+  "version": "1.0.0",
+  "description": "🎸 AI-Powered Music Learning App - Sing, Learn, Level Up!",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "clean": "turbo clean",
+    "format": "biome format --write .",
+    "check": "biome check --write ."
+  },
+  "keywords": ["music", "learning", "ai", "singing", "gamification"],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "bun@1.2.22",
+  "workspaces": ["apps/*", "packages/*"],
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
+    "eslint": "^9.36.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

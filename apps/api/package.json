@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.5.2",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.4",
+    "@hono/zod-validator": "^0.7.3",
+    "@neondatabase/serverless": "^1.0.1",
+    "@upstash/ratelimit": "^2.0.6",
+    "@upstash/redis": "^1.35.4",
+    "drizzle-orm": "^0.44.5",
+    "hono": "^4.9.8",
+    "lucia": "^3.2.2",
+    "oslo": "^1.2.1",
+    "zod": "^4.1.11"
+  }
+}
